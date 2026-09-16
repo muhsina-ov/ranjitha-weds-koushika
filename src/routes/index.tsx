@@ -9,20 +9,37 @@ import { Footer } from "@/components/wedding/Footer";
 import { Opener } from "@/components/wedding/Opener";
 import { ScrollProgress } from "@/components/wedding/ScrollProgress";
 
-const title = "Ranjitha & Koushik · 21 September 2026, Shivamogga";
+const title = "Ranjitha & Koushik — Engagement Invitation · 21 September 2026";
 const description =
-  "Together with their families, Ranjitha and Koushik invite you to celebrate their engagement on Monday, 21 September 2026 at Shivamogga.";
+  "Together with their families, Ranjitha and Koushik invite you to celebrate their engagement ceremony on Monday, 21 September 2026 at Shivamogga, Karnataka.";
+const url = "https://ranjitha-weds-koushika.pages.dev";
+const image = "https://ranjitha-weds-koushika.pages.dev/og-image.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title },
       { name: "description", content: description },
+      { property: "og:site_name", content: "Ranjitha & Koushik" },
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: url },
+      { property: "og:image", content: image },
+      { property: "og:image:type", content: "image/jpeg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      {
+        property: "og:image:alt",
+        content: "Portrait of Ranjitha & Koushik — Engagement Invitation",
+      },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:url", content: url },
+      { name: "twitter:title", content: title },
+      { name: "twitter:description", content: description },
+      { name: "twitter:image", content: image },
     ],
+    links: [{ rel: "canonical", href: url }],
   }),
   component: Invitation,
 });
