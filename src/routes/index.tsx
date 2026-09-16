@@ -6,6 +6,7 @@ import { Couple } from "@/components/wedding/Couple";
 import { Countdown } from "@/components/wedding/Countdown";
 import { EventDetails } from "@/components/wedding/EventDetails";
 import { Footer } from "@/components/wedding/Footer";
+import { MusicPlayer } from "@/components/wedding/MusicPlayer";
 import { Opener } from "@/components/wedding/Opener";
 import { ScrollProgress } from "@/components/wedding/ScrollProgress";
 
@@ -46,6 +47,7 @@ export const Route = createFileRoute("/")({
 
 function Invitation() {
   const [opened, setOpened] = useState(false);
+  const [musicTrigger, setMusicTrigger] = useState(false);
 
   useEffect(() => {
     document.body.style.overflow = opened ? "" : "hidden";
@@ -57,8 +59,16 @@ function Invitation() {
   return (
     <>
       <AnimatePresence>
-        {!opened && <Opener key="opener" onOpen={() => setOpened(true)} />}
+        {!opened && (
+          <Opener
+            key="opener"
+            onStartOpen={() => setMusicTrigger(true)}
+            onOpen={() => setOpened(true)}
+          />
+        )}
       </AnimatePresence>
+
+      <MusicPlayer autoPlayTrigger={musicTrigger || opened} />
 
       {opened && <ScrollProgress />}
 
