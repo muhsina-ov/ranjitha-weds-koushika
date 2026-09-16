@@ -263,7 +263,7 @@ draw_tracked_text(t_draw, "SHIVAMOGGA, KARNATAKA · 10:00 AM ONWARDS", box_y + 4
 curr_y = box_y + box_h + 18
 
 # Website URL Pill
-url_pill = "ranjitha-weds-koushika.pages.dev"
+url_pill = "ranjitha-weds-koushika.invitingyou.top"
 draw_tracked_text(t_draw, url_pill, curr_y, font_url, (226, 183, 85, 210), letter_spacing=3)
 
 # Composite all text

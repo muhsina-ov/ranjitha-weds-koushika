@@ -12,9 +12,9 @@ import { ScrollProgress } from "@/components/wedding/ScrollProgress";
 
 const title = "Ranjitha & Koushik — Engagement Invitation · 21 September 2026";
 const description =
-  "Together with their families, Ranjitha and Koushik invite you to celebrate their engagement ceremony on Monday, 21 September 2026 at Shivamogga, Karnataka.";
-const url = "https://ranjitha-weds-koushika.pages.dev";
-const image = "https://ranjitha-weds-koushika.pages.dev/og-image.jpg";
+  "Celebrate the engagement of Ranjitha & Koushik on Monday, 21 September 2026 in Shivamogga, Karnataka.";
+const url = "https://ranjitha-weds-koushika.invitingyou.top";
+const image = "https://ranjitha-weds-koushika.invitingyou.top/og-image.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
