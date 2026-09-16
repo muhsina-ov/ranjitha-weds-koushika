@@ -48,8 +48,8 @@ export function Footer() {
           <div className="mt-9 flex flex-col items-center">
             <span className="rule-gold w-28" />
             <p className="text-ivory font-display mt-6 text-3xl font-light">
-              {wedding.bride.name} <span className="font-script text-gold">&amp;</span>{" "}
-              {wedding.groom.name}
+              {wedding.groom.name} <span className="font-script text-gold">&amp;</span>{" "}
+              {wedding.bride.name}
             </p>
             <p className="text-ivory/50 mt-2 text-[0.6rem] tracking-[0.4em] uppercase">
               21 · 09 · 2026 · Shivamogga

@@ -65,13 +65,13 @@ export function Couple() {
 
         <div className="mt-10 space-y-8">
           <Parallax speed={26}>
-            <Person person={wedding.bride} role="The Bride" />
+            <Person person={wedding.groom} role="The Groom" />
           </Parallax>
           <div className="flex justify-center">
             <span className="font-script text-gold animate-float-soft text-5xl">&amp;</span>
           </div>
           <Parallax speed={-26}>
-            <Person person={wedding.groom} role="The Groom" />
+            <Person person={wedding.bride} role="The Bride" />
           </Parallax>
         </div>
       </div>

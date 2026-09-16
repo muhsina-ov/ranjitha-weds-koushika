@@ -77,19 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Ranjitha & Koushik — Engagement Invitation" },
+      { title: "Koushik & Ranjitha — Engagement Invitation" },
       {
         name: "description",
         content:
-          "Celebrate the engagement of Ranjitha & Koushik on Monday, 21 September 2026 in Shivamogga, Karnataka.",
+          "Celebrate the engagement of Koushik & Ranjitha on Monday, 21 September 2026 in Shivamogga, Karnataka.",
       },
-      { name: "author", content: "Ranjitha & Koushik" },
-      { property: "og:site_name", content: "Ranjitha & Koushik" },
-      { property: "og:title", content: "Ranjitha & Koushik — Engagement Invitation" },
+      { name: "author", content: "Koushik & Ranjitha" },
+      { property: "og:site_name", content: "Koushik & Ranjitha" },
+      { property: "og:title", content: "Koushik & Ranjitha — Engagement Invitation" },
       {
         property: "og:description",
         content:
-          "Celebrate the engagement of Ranjitha & Koushik on Monday, 21 September 2026 in Shivamogga, Karnataka.",
+          "Celebrate the engagement of Koushik & Ranjitha on Monday, 21 September 2026 in Shivamogga, Karnataka.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://ranjitha-weds-koushika.invitingyou.top" },
@@ -102,15 +102,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:image:height", content: "630" },
       {
         property: "og:image:alt",
-        content: "Portrait of Ranjitha & Koushik — Engagement Invitation",
+        content: "Portrait of Koushik & Ranjitha — Engagement Invitation",
       },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:url", content: "https://ranjitha-weds-koushika.invitingyou.top" },
-      { name: "twitter:title", content: "Ranjitha & Koushik — Engagement Invitation" },
+      { name: "twitter:title", content: "Koushik & Ranjitha — Engagement Invitation" },
       {
         name: "twitter:description",
         content:
-          "Celebrate the engagement of Ranjitha & Koushik on Monday, 21 September 2026 in Shivamogga, Karnataka.",
+          "Celebrate the engagement of Koushik & Ranjitha on Monday, 21 September 2026 in Shivamogga, Karnataka.",
       },
       {
         name: "twitter:image",

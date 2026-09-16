@@ -17,7 +17,7 @@ function addToCalendar() {
     `DTSTAMP:${icsStamp(new Date().toISOString())}`,
     `DTSTART:${icsStamp(wedding.dateISO)}`,
     `DTEND:${icsStamp(wedding.endISO)}`,
-    `SUMMARY:${wedding.bride.name} & ${wedding.groom.name} — Engagement Ceremony`,
+    `SUMMARY:${wedding.groom.name} & ${wedding.bride.name} — Engagement Ceremony`,
     `LOCATION:${wedding.venue.name}, ${wedding.venue.address}`,
     "DESCRIPTION:With love and joy, we invite you to celebrate our engagement.",
     "END:VEVENT",
@@ -27,7 +27,7 @@ function addToCalendar() {
   const url = URL.createObjectURL(new Blob([ics], { type: "text/calendar" }));
   const a = document.createElement("a");
   a.href = url;
-  a.download = "ranjitha-koushik-engagement.ics";
+  a.download = "koushik-ranjitha-engagement.ics";
   a.click();
   URL.revokeObjectURL(url);
 }

@@ -212,8 +212,8 @@ def draw_lux_name(draw_ctx, name, y):
     draw_ctx.text((nx - 1, y - 1), name, font=font_names, fill=(255, 245, 210, 160))
     return nh
 
-# Bride Name
-nh1 = draw_lux_name(t_draw, "Ranjitha", curr_y)
+# Groom Name
+nh1 = draw_lux_name(t_draw, "Koushik", curr_y)
 curr_y += nh1 + 8
 
 # Calligraphic "&"
@@ -222,8 +222,8 @@ amp_w = amp_bbox[2] - amp_bbox[0]
 t_draw.text((center_x - amp_w // 2, curr_y - 12), "&", font=font_and, fill=(246, 226, 122, 240))
 curr_y += 36
 
-# Groom Name
-nh2 = draw_lux_name(t_draw, "Koushik", curr_y)
+# Bride Name
+nh2 = draw_lux_name(t_draw, "Ranjitha", curr_y)
 curr_y += nh2 + 20
 
 # Elegant Gold Geometric Divider with diamond

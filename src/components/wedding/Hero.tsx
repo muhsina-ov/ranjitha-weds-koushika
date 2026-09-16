@@ -68,11 +68,11 @@ export function Hero() {
             className="mt-5 flex flex-col items-center leading-[0.82]"
           >
             <span className="text-gold-foil font-display text-[4.25rem] font-light">
-              {wedding.bride.name}
+              {wedding.groom.name}
             </span>
             <span className="font-script text-gold/80 my-1 text-3xl">and</span>
             <span className="text-gold-foil font-display text-[4.25rem] font-light">
-              {wedding.groom.name}
+              {wedding.bride.name}
             </span>
           </motion.h1>
 
@@ -103,7 +103,7 @@ export function Hero() {
 
         <motion.img
           src="/images/couple-hero.png"
-          alt="Portrait of Ranjitha & Koushik"
+          alt="Portrait of Koushik & Ranjitha"
           width={682}
           height={1024}
           initial={{ opacity: 0, y: 40, scale: 0.96 }}

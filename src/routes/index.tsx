@@ -10,9 +10,9 @@ import { MusicPlayer } from "@/components/wedding/MusicPlayer";
 import { Opener } from "@/components/wedding/Opener";
 import { ScrollProgress } from "@/components/wedding/ScrollProgress";
 
-const title = "Ranjitha & Koushik — Engagement Invitation · 21 September 2026";
+const title = "Koushik & Ranjitha — Engagement Invitation · 21 September 2026";
 const description =
-  "Celebrate the engagement of Ranjitha & Koushik on Monday, 21 September 2026 in Shivamogga, Karnataka.";
+  "Celebrate the engagement of Koushik & Ranjitha on Monday, 21 September 2026 in Shivamogga, Karnataka.";
 const url = "https://ranjitha-weds-koushika.invitingyou.top";
 const image = "https://ranjitha-weds-koushika.invitingyou.top/og-image.jpg";
 
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
     meta: [
       { title },
       { name: "description", content: description },
-      { property: "og:site_name", content: "Ranjitha & Koushik" },
+      { property: "og:site_name", content: "Koushik & Ranjitha" },
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
       { property: "og:image:height", content: "630" },
       {
         property: "og:image:alt",
-        content: "Portrait of Ranjitha & Koushik — Engagement Invitation",
+        content: "Portrait of Koushik & Ranjitha — Engagement Invitation",
       },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:url", content: url },

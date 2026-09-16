@@ -3,14 +3,14 @@ export const wedding = {
     name: "Koushik",
     fullName: "Koushik",
     line: "The Groom",
-    note: "Kind-hearted, adventurous, and ready for a beautiful lifetime of shared love, laughter, and companionship.",
+    note: "With love in his heart and hope in his eyes, he waits for her arrival, where their forever begins.",
     image: "/images/groom.png",
   },
   bride: {
     name: "Ranjitha",
     fullName: "Ranjitha",
     line: "The Bride",
-    note: "Radiant, graceful, and bringing warmth, joy, and bright smiles to every step of life's journey.",
+    note: "With dreams in her eyes and love in her heart, she walks toward him, where two souls become one.",
     image: "/images/bride.png",
   },
   // 21 September 2026, 10:00 AM IST
@@ -18,10 +18,11 @@ export const wedding = {
   endISO: "2026-09-21T14:00:00+05:30",
   dateLabel: "Monday, 21 September 2026",
   timeLabel: "10:00 AM onwards",
-  muhurthamLabel: "Engagement Ceremony · 10:00 AM",
+  muhurthamLabel: "Engagement Ceremony",
   venue: {
-    name: "Beside Nimishamba Temple, Opposite Shankar Mutt",
-    address: "Shankar Mutt Rd, Shivamogga, Karnataka 577201",
+    name: "Shankara Krupa",
+    address:
+      "Beside Nimishamba Temple, Opposite Shankar Mutt, Shankar Mutt Rd, Shivamogga, Karnataka 577201",
     mapUrl: "https://maps.app.goo.gl/sXHm4rUnmJxWrYKXA?g_st=ic",
   },
 };
