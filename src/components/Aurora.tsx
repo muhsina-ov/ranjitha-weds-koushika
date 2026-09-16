@@ -42,8 +42,7 @@ export function Aurora({ className = "", intensity = 1 }: AuroraProps) {
       <div
         className="absolute inset-0 mix-blend-soft-light"
         style={{
-          backgroundImage:
-            "radial-gradient(oklch(0.98 0.02 92 / 0.35) 1px, transparent 1px)",
+          backgroundImage: "radial-gradient(oklch(0.98 0.02 92 / 0.35) 1px, transparent 1px)",
           backgroundSize: "22px 22px",
         }}
       />

@@ -27,11 +27,11 @@ export function Parallax({
     mass: 0.4,
   });
   const y = useTransform(smooth, [0, 1], [speed, -speed]);
-  const scale = useTransform(smooth, [0, 0.5, 1], [
-    scaleRange?.[0] ?? 1,
-    scaleRange?.[1] ?? 1,
-    scaleRange?.[0] ?? 1,
-  ]);
+  const scale = useTransform(
+    smooth,
+    [0, 0.5, 1],
+    [scaleRange?.[0] ?? 1, scaleRange?.[1] ?? 1, scaleRange?.[0] ?? 1],
+  );
 
   return (
     <div ref={ref} className={className}>

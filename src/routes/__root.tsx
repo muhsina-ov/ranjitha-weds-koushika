@@ -78,16 +78,27 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "InviteStory" },
-      { name: "description", content: "Ethereal Invite creates stunning, mobile-first digital wedding invitations inspired by traditional Indian aesthetics." },
+      {
+        name: "description",
+        content:
+          "Ethereal Invite creates stunning, mobile-first digital wedding invitations inspired by traditional Indian aesthetics.",
+      },
       { name: "author", content: "InviteStory" },
       { property: "og:title", content: "InviteStory" },
-      { property: "og:description", content: "Ethereal Invite creates stunning, mobile-first digital wedding invitations inspired by traditional Indian aesthetics." },
+      {
+        property: "og:description",
+        content:
+          "Ethereal Invite creates stunning, mobile-first digital wedding invitations inspired by traditional Indian aesthetics.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@invitestory.in" },
       { name: "twitter:title", content: "InviteStory" },
-      { name: "twitter:description", content: "Ethereal Invite creates stunning, mobile-first digital wedding invitations inspired by traditional Indian aesthetics." },
-
+      {
+        name: "twitter:description",
+        content:
+          "Ethereal Invite creates stunning, mobile-first digital wedding invitations inspired by traditional Indian aesthetics.",
+      },
     ],
     links: [
       {
@@ -107,7 +118,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   notFoundComponent: NotFoundComponent,
   errorComponent: ErrorComponent,
 });
-
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();

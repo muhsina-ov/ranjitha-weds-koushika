@@ -33,9 +33,7 @@ function Unit({ value, label }: { value: number; label: string }) {
           </motion.span>
         </AnimatePresence>
       </div>
-      <span className="text-ivory/55 mt-2 text-[0.55rem] tracking-[0.3em] uppercase">
-        {label}
-      </span>
+      <span className="text-ivory/55 mt-2 text-[0.55rem] tracking-[0.3em] uppercase">{label}</span>
     </div>
   );
 }

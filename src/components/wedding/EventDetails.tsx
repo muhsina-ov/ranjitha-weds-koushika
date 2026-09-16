@@ -54,9 +54,7 @@ export function EventDetails() {
                 Save the date
               </p>
               <p className="text-ivory font-display mt-2 text-5xl font-light">21</p>
-              <p className="text-ivory/85 text-sm tracking-[0.35em] uppercase">
-                September 2026
-              </p>
+              <p className="text-ivory/85 text-sm tracking-[0.35em] uppercase">September 2026</p>
             </div>
 
             <div className="divide-gold/15 divide-y">

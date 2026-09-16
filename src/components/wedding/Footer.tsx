@@ -39,8 +39,8 @@ export function Footer() {
             Come bless our new beginning
           </p>
           <p className="text-ivory/70 mx-auto mt-5 max-w-sm text-sm leading-relaxed">
-            Your presence is the greatest blessing as we celebrate our engagement. Join us
-            with your warm smiles, laughter, and best wishes as we step into this joyous journey.
+            Your presence is the greatest blessing as we celebrate our engagement. Join us with your
+            warm smiles, laughter, and best wishes as we step into this joyous journey.
           </p>
         </Reveal>
 
@@ -61,15 +61,14 @@ export function Footer() {
           Made with <Heart className="text-gold h-3 w-3 fill-current" /> for our people
         </p>
       </div>
-            <a
-          href="https://www.instagram.com/invitestory.in/"
-          target="_blank"
-          rel="noreferrer"
-          className="mt-3 inline-block text-[10px] uppercase tracking-[0.35em] text-current opacity-70 transition-opacity hover:opacity-100"
-        >
-          Follow @invitestory.in on Instagram
-        </a>
-      </footer>
-
+      <a
+        href="https://www.instagram.com/invitestory.in/"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-3 inline-block text-[10px] uppercase tracking-[0.35em] text-current opacity-70 transition-opacity hover:opacity-100"
+      >
+        Follow @invitestory.in on Instagram
+      </a>
+    </footer>
   );
 }

@@ -25,4 +25,3 @@ export const wedding = {
     mapUrl: "https://maps.app.goo.gl/sXHm4rUnmJxWrYKXA?g_st=ic",
   },
 };
-
